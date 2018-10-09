@@ -1,0 +1,5 @@
+Binary Search
+All the source code is contained in BinarySearch.s. This program creates a list of integers based on user inputs. Then it performs Insertion Sorton the list. Finally it searches for a user defined key using Binary Search. Your task is to implement 3 of the functions described below. Make sure you DO NOT modify the main method!In order to understand how arguments are passed to the following functions, study the main function CAREFULLY.
+- printList: It is a function to print out the content of a list. It takes in a listand its sizeas arguments. It does not return any value.
+- inSort: It performs Insertion Sortin ascending orderon a list. It takes in a listand its sizeas arguments. It returns the sorted list asa new list. You may use sorted_listdefined in the data segment in this function.
+- bSearch:It performs a recursive Binary Searchof a key on a list. It takes in a list, its size, and a search keyas arguments. It returns 1 if the key exists in the list, otherwise it returns 0. You must implement this algorithm recursively; therefore, be aware of the use of stack memory.
